@@ -1,0 +1,23 @@
+@import './variables.scss';
+
+.button {
+    display: block;
+    margin: 0 auto;
+    width: 175px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: $blue;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    &__short {
+        width: 105px;
+    }
+    &:hover {
+        background-color: #92b3ca;
+    }
+}
